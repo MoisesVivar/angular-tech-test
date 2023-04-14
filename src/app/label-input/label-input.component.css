@@ -1,0 +1,12 @@
+label{
+    margin: 10px 10px 5px 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+input{
+    font-size: 30px;
+    width: 250px;
+    text-align: right;
+    padding-right: 15px;
+}

@@ -1,0 +1,43 @@
+.general-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.criteria-container{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1000px){
+    .criteria-container{
+        margin: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+    } 
+}
+
+.trigger-button{
+    font-size: 20px;
+    background-color: #ff8204;
+    padding: 15px 30PX;
+    border-radius: 10px;
+    border: none;
+    color: #FFF;
+}
+
+.trigger-button:disabled{
+    cursor: not-allowed;
+    background-color: #FFE3C7;
+    color: #6C6D6D;
+}
+
+#title{
+    background-color: #48086f;
+    color: #FFF;
+    padding: 50px 0px;
+    font-weight: bold;
+}

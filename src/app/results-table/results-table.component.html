@@ -1,0 +1,16 @@
+<table class="table table-hover">
+    <thead>
+        <th>#</th>
+        <th>Reference Date</th>
+        <th>Benchmark 1</th>
+        <th>Benchmark 2</th>
+    </thead>
+    <tbody class="table-group-divider">
+        <tr *ngFor="let result of results; index as i">
+            <td>{{i+1}}</td>
+            <td>{{result.referenceDate}}</td>
+            <td>{{result.benchmark1}}</td>
+            <td>{{result.benchmark2}}</td>
+        </tr>
+    </tbody>
+</table>
